@@ -9,8 +9,7 @@ import glob
 import re
 import pandas as pd
 #import openpyxl
-import plotly as px
-#import plotly.express as px
+import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 
