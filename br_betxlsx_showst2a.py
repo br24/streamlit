@@ -48,7 +48,7 @@ if folder!="":
 else:
     fileplace="BET_latest.xlsx"
 
-_lock = RendererAgg.lock #グラフ高速化
+##_lock = RendererAgg.lock #グラフ高速化
 plt.style.use('default')
 #ページ名
 st.set_page_config(page_title='月間データ',layout='wide')
