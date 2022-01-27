@@ -10,14 +10,14 @@ import glob
 import re
 import pandas as pd
 import numpy as np
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_agg import RendererAgg
-from matplotlib.figure import Figure
+#import matplotlib
+#matplotlib.use("Agg")
+#import matplotlib.pyplot as plt
+#from matplotlib.backends.backend_agg import RendererAgg
+#from matplotlib.figure import Figure
 import plotly.graph_objects as go
 import plotly.express as px
-import seaborn as sns
+#import seaborn as sns
 #import statsmodels
 #from statsmodels.nonparametric.smoothers_lowess import lowess
 
