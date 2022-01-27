@@ -11,8 +11,8 @@ import re
 import pandas as pd
 import numpy as np
 #import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+#matplotlib.use("Agg")
+#import matplotlib.pyplot as plt
 #from matplotlib.backends.backend_agg import RendererAgg
 #from matplotlib.figure import Figure
 #import plotly.graph_objects as go
@@ -49,7 +49,7 @@ else:
     fileplace="BET_latest.xlsx"
 
 ##_lock = RendererAgg.lock #グラフ高速化
-plt.style.use('default')
+##plt.style.use('default')
 #ページ名
 st.set_page_config(page_title='月間データ',layout='wide')
 
